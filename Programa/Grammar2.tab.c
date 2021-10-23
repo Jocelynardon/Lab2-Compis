@@ -68,7 +68,7 @@
 /* Copy the first part of user declarations.  */
 
 /* Line 189 of yacc.c  */
-#line 1 "Grammar2.y"
+#line 1 "grammar2.y"
 
 	#include <ctype.h>
 	#include <stdio.h>
@@ -79,7 +79,7 @@
 
 
 /* Line 189 of yacc.c  */
-#line 83 "Grammar2.tab.c"
+#line 83 "grammar2.tab.c"
 
 /* Enabling traces.  */
 #ifndef YYDEBUG
@@ -128,7 +128,7 @@ typedef int YYSTYPE;
 
 
 /* Line 264 of yacc.c  */
-#line 132 "Grammar2.tab.c"
+#line 132 "grammar2.tab.c"
 
 #ifdef short
 # undef short
@@ -1321,7 +1321,7 @@ yyreduce:
         case 2:
 
 /* Line 1455 of yacc.c  */
-#line 21 "Grammar2.y"
+#line 21 "grammar2.y"
     { 	if ((yyvsp[(2) - (3)]) == 1)
 								{
 									printf("True... \n");
@@ -1336,7 +1336,7 @@ yyreduce:
   case 5:
 
 /* Line 1455 of yacc.c  */
-#line 34 "Grammar2.y"
+#line 34 "grammar2.y"
     { 	if (((yyvsp[(1) - (3)]) == 0) && ((yyvsp[(3) - (3)]) == 0))
 								{ 
 									(yyval) = 0;
@@ -1351,28 +1351,28 @@ yyreduce:
   case 6:
 
 /* Line 1455 of yacc.c  */
-#line 43 "Grammar2.y"
+#line 43 "grammar2.y"
     { (yyval) = (yyvsp[(1) - (1)]) ;}
     break;
 
   case 7:
 
 /* Line 1455 of yacc.c  */
-#line 46 "Grammar2.y"
+#line 46 "grammar2.y"
     { 	(yyval) = (yyvsp[(1) - (3)]) * (yyvsp[(3) - (3)]) ;}
     break;
 
   case 8:
 
 /* Line 1455 of yacc.c  */
-#line 47 "Grammar2.y"
+#line 47 "grammar2.y"
     { (yyval) = (yyvsp[(1) - (1)]);}
     break;
 
   case 9:
 
 /* Line 1455 of yacc.c  */
-#line 50 "Grammar2.y"
+#line 50 "grammar2.y"
     { if ((yyvsp[(2) - (2)]) == 0)
 								{ 
 									(yyval) = 1;
@@ -1387,14 +1387,14 @@ yyreduce:
   case 10:
 
 /* Line 1455 of yacc.c  */
-#line 59 "Grammar2.y"
+#line 59 "grammar2.y"
     { (yyval) = (yyvsp[(2) - (3)]) ;}
     break;
 
 
 
 /* Line 1455 of yacc.c  */
-#line 1398 "Grammar2.tab.c"
+#line 1398 "grammar2.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -1606,7 +1606,7 @@ yyreturn:
 
 
 /* Line 1675 of yacc.c  */
-#line 64 "Grammar2.y"
+#line 64 "grammar2.y"
 
 
 #include "lex.yy.c"

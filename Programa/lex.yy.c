@@ -387,7 +387,7 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "Scanner2.lex"
+#line 1 "scanner2.lex"
 #define INITIAL 0
 /*number	[0-9]+\.?|[0-9]*\.[0-9]+*/
 #line 394 "lex.yy.c"
@@ -541,7 +541,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 8 "Scanner2.lex"
+#line 8 "scanner2.lex"
 
 #line 547 "lex.yy.c"
 
@@ -628,27 +628,27 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 9 "Scanner2.lex"
+#line 9 "scanner2.lex"
 ; { /* Espacios en blanco */ }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 10 "Scanner2.lex"
+#line 10 "scanner2.lex"
 return Or;
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 11 "Scanner2.lex"
+#line 11 "scanner2.lex"
 return And;
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 12 "Scanner2.lex"
+#line 12 "scanner2.lex"
 return Not;
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 13 "Scanner2.lex"
+#line 13 "scanner2.lex"
 {
 				sscanf("1", "%lf", &yylval);
 				return True;
@@ -656,7 +656,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 17 "Scanner2.lex"
+#line 17 "scanner2.lex"
 {
 				sscanf("0", "%lf", &yylval);
 				return False;
@@ -664,17 +664,17 @@ YY_RULE_SETUP
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 21 "Scanner2.lex"
+#line 21 "scanner2.lex"
 return yytext[0];
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 22 "Scanner2.lex"
+#line 22 "scanner2.lex"
 printf("Error\n");
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 23 "Scanner2.lex"
+#line 23 "scanner2.lex"
 ECHO;
 	YY_BREAK
 #line 681 "lex.yy.c"
@@ -1563,7 +1563,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 23 "Scanner2.lex"
+#line 23 "scanner2.lex"
 
 
 int yywrap(void)
